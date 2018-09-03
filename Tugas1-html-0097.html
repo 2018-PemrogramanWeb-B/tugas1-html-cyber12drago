@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial 1</title>
+
+<style>
+	table {
+    	width:100%;
+		background-color:mediumseagreen
+	}
+	table, th, td {
+    	border: 1px solid black;
+    	border-collapse: collapse;
+	}
+	th, td {
+    	padding: 15px;
+  	}
+	table#t01 th {
+    	background-color: black;
+    	color: white;
+	}
+	b { 
+    font-weight: bold;
+	}
+	.length-200{
+		width: 200px;
+	}
+	#form1 label{
+		width: 150px;
+		display: inline-block;
+	}
+
+</style>
+		<h1 align="center"><font size="20">Tutorial 1</font></h1>
+</head>
+
+<body background="D:\images.jpg";>
+	<p style="background-color:hsl(9, 100%, 50%);"><font size="5"><b>Make a Picture</b></font></p>
+	<div>
+	<img src="download.jpg" alt="Mazerunner" style="width:160px;height:200px;">
+	<img src="product_thumbnail.jpg" alt="strukdat" style="width:160px;height:200px;">
+	<img src="Laravel.jpg" alt="laravel" style="width:160px;height:200px;">
+	</div>
+
+
+	<p style="background-color:hsl(9, 100%, 50%);"><font size="5"><b>Make a Form</b></font></p>
+	<form id="form1" action="/action_page.php">
+  		<div>
+  			<label for="firstname">Name:</label>
+  			<input type="text" name="firstname" placeholder ="Insert Your Name" class="length-200" />
+  		</div>
+  		<div>
+	  		<label for="tempatlahir">Birthplace:</label>
+	  		<input type="text" name="tempatlahir" placeholder="Insert Your Birthplace" class="length-200" />
+  		</div>
+  		<div>
+  			<label for="bday">Birthday:</label>
+  			<input type="date" name="bday" min="2000-01-02" class="length-200" />
+  		</div>
+  		<div>
+  			<label for="gender">Gender:</label>
+  				<select name="Gender" class="length-200">
+    				<option value="volvo">Male</option>
+    				<option value="saab">Female</option>
+  				</select>
+  		</div>
+  		<div>
+  			<label for="email">Email:</label>
+  			<input type="email" name="email" autocomplete="off" placeholder="Insert Your Email"  class="length-200"/>
+  		</div>
+  		<div>
+  			<label for="password">Password:</label>
+  			<input type="password" name="password" placeholder="Insert Your Password"  class="length-200"/>
+  		</div>
+  		<div>
+  				<input type="checkbox" name="terms" value="terms"/> Do you accept our terms and use?
+  		</div>
+  		<div>
+  				<input type="submit" value="Submit">
+  		</div>
+</form>
+<br>
+
+<p style="background-color:hsl(9, 100%, 50%);"><font size="5"><b>Make a Form</b></font></p>
+<div>
+<table id="t01">
+  <tr>
+    <th>Book Name</th>
+    <th>Author</th> 
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>The Lost Incident: 7 lost child</td>
+    <td>Yusaku</td>
+    <td>Rp 54.000</td>
+  </tr>
+  <tr>
+  	<td>The Maze Runner</td>
+    <td>James Dansher</td>
+    <td>Rp 120.000</td>
+    
+  </tr>
+  <tr>
+    <td>Laskar Pelangi</td>
+    <td>Andrea Hirata</td>
+    <td>Rp 68.000</td>
+  </tr> 
+  <tr>
+    <td>Codeigniter vs Laravel Kasus Membuat Website Pencari Kerja</td>
+    <td>David Naista</td>
+    <td>Rp 65.000</td>
+ 
+  </tr>
+   <tr>
+    <td>Data Structures in C</td>
+ 	<td>Noel Kalicharan</td>    
+ 	<td>Rp 205.000</td>
+ 
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
